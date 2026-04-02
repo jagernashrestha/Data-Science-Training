@@ -1,0 +1,19 @@
+[project]
+name = "datascience"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "pytwo",
+    "03 titanic dataset analysis",
+    "05",
+    "06",
+    "07 correlation iris dataset",
+    "new",
+    "08 fast API and Streamlit",
+    "09.Linear regression",
+]
