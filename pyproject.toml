@@ -1,9 +1,14 @@
 [project]
+<<<<<<< HEAD
 name = "datascience"
+=======
+name = "07-correlation-iris-dataset"
+>>>>>>> bdd0cb0f4750ac616d1b64d007e17d6e375cac87
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
+<<<<<<< HEAD
 dependencies = []
 
 [tool.uv.workspace]
@@ -16,4 +21,11 @@ members = [
     "new",
     "08 fast API and Streamlit",
     "09.Linear regression",
+=======
+dependencies = [
+    "ipykernel>=7.2.0",
+    "numpy>=2.4.3",
+    "pandas>=3.0.1",
+    "seaborn>=0.13.2",
+>>>>>>> bdd0cb0f4750ac616d1b64d007e17d6e375cac87
 ]
