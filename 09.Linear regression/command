@@ -1,5 +1,5 @@
 uv init
-uv add scikit-learn
+uv add scikit-learn pandas ipykernel 
 uv venv
 https://scikit-learn.org/stable/supervised_learning.html
 uci machine learning repository - dataset
